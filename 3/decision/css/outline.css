@@ -153,9 +153,18 @@ main.container::before {
   content: ".site-navigation";
 }
 
+.site-navigation-item::before {
+  content: ".site-navigation-item";
+}
+
 .user-navigation::before {
   content: ".user-navigation";
 }
+
+.user-navigation-item::before {
+  content: ".user-navigation-item";
+}
+
 
 .main-header-logo::before {
   content: ".main-header-logo";
